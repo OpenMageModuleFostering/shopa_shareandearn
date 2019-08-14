@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Shopa_ShareAndEarn>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Shopa_ShareAndEarn>
+    </modules>
+</config>
