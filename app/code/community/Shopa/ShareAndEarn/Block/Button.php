@@ -15,7 +15,7 @@ class Shopa_ShareAndEarn_Block_Button extends Mage_Catalog_Block_Product_Abstrac
     }
 
     public function getCurrency() {
-        return 'GBP';
+        return Mage::app()->getStore()->getCurrentCurrencyCode();
     }
 
     public function getIsButtonVisible() {
