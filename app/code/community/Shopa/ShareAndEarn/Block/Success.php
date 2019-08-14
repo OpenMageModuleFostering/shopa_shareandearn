@@ -36,7 +36,7 @@ class Shopa_ShareAndEarn_Block_Success extends Mage_Core_Block_Template
     }
 
     public function getCurrency() {
-        return 'GBP';
+        return Mage::app()->getStore()->getCurrentCurrencyCode();
     }
 
     public function getSubtotalInclTax() {
