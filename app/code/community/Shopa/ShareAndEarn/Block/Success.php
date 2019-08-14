@@ -19,7 +19,7 @@ class Shopa_ShareAndEarn_Block_Success extends Mage_Core_Block_Template
         $apiKey = $this->getApiKey();
         $apiSecret = Mage::getStoreConfig('shopa_shareandearn_options/security/api_secret');
 
-        $data = "$commission:$price:$currency:$orderId:$orderEmail$apiKey:$apiSecret";
+        $data = "$commission:$price:$currency:$orderId:$orderEmail:$apiKey:$apiSecret";
         return sha1($data);
     }
 
