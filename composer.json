@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Shopa_ShareAndEarn",
+    "name": "OpenMageModuleFostering\/Shopa_ShareAndEarn",
     "type": "magento-module",
     "license": "Apache-Software-License-(ASL)",
     "homepage": "",
-    "description": "Adding shopa and its ‘share & earn’ tools to your retail site allows you to financially incentivize users to recommend your products to their networks and friends.",
+    "description": "Adding shopa and its \u2018share & earn\u2019 tools to your retail site allows you to financially incentivize users to recommend your products to their networks and friends.",
     "authors": [
-    {
-        "name": "Tim Macfarlane",
-        "email": "tim@featurist.co.uk"
-    }
-],
+        {
+            "name": "Tim Macfarlane",
+            "email": "tim@featurist.co.uk"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
